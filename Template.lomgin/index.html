@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/util.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    <div class="auth-card">
+    <div class="auth-card-header">
+        <h2>Selamat Datang Kembali!</h2>
+        <p>Silakan masukkan detail akun Anda untuk melanjutkan.</p>
+    </div>
+
+    <form action="#" method="post" novalidate>
+
+        <div class="alert alert-success text-center mb-3" style="display:none;"></div>
+        <div class="alert alert-danger text-center mb-3" style="display:none;"></div>
+
+        <div class="form-group">
+            <input type="email" name="email" id="email"
+                class="form-control"
+                placeholder="Masukkan Email Anda" required>
+        </div>
+
+        <div class="form-group">
+            <input type="password" name="password" id="password"
+                class="form-control"
+                placeholder="Masukkan Password" required>
+        </div>
+
+        <div class="form-check">
+            <div>
+                <input type="checkbox" name="remember" id="remember" class="form-check-input">
+                <label for="remember" class="form-check-label">Ingat saya</label>
+            </div>
+            <a href="#">Lupa password?</a>
+        </div>
+
+        <button type="submit" class="btn-primary-auth">Login</button>
+
+        <div style="margin: 1.5rem 0; color: #9ca3af;">atau</div>
+
+        <a href="#" class="btn-google-auth">
+            <i class="fab fa-google"></i>
+            <span>Masuk dengan Google</span>
+        </a>
+
+        <div class="auth-footer-link">
+            Belum punya akun? <a href="#">Daftar sekarang</a>
+        </div>
+    </form>
+</div>
+<script src="assets/vendor/jquery/jquery-3.2.1.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
