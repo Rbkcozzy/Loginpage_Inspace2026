@@ -65,8 +65,7 @@ li {
 }
 
 label {
-    display: block;
-    margin: 0;
+    margin: 5px;
 }
 
 /*---------------------------------------------*/
@@ -419,6 +418,10 @@ body {
     align-items: center;
     font-size: 13px;
     margin-bottom: 20px;
+}
+
+.form-checkbox-container {
+    display: inline-flex;
 }
 
 .form-check a {
